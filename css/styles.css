@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Passion+One:wght@400;700;900&family=Patua+One&family=Paytone+One&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background: #1F2937;
+}
+.container header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15%;
+}
+.container header nav .logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 800;
+}
+.container header nav ul {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+}
+.container header nav ul li a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+  font-weight: 300;
+  transition: all 0.3s ease-in;
+}
+.container header nav ul li a:hover {
+  font-size: 20px;
+}
+.container .home {
+  width: 100%;
+  background: #1F2937;
+  padding: 5% 15% 10% 15%;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.container .home .text-home {
+  flex-shrink: 0;
+}
+.container .home .text-home h2 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bold;
+}
+.container .home .text-home p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #E5E7EB;
+  flex-shrink: 0;
+  text-align: left;
+}
+.container .home .text-home button {
+  background: #3882F6;
+  font-weight: 600;
+  color: #E5E7EB;
+  padding: 7px 24px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: all 0.3s ease-in;
+}
+.container .home .text-home button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.container .home .img {
+  width: 500px;
+  height: 250px;
+  background: rgba(229, 231, 235, 0.4235294118);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .home .img p {
+  color: #E5E7EB;
+}
+.container .info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 0px 7% 0px;
+}
+.container .info h3 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bold;
+}
+.container .info .content-box {
+  display: flex;
+  gap: 36px;
+  margin-top: 2%;
+}
+.container .info .content-box .box .box-img {
+  width: 100%;
+  height: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+}
+.container .info .content-box .box p {
+  margin-top: 10px;
+  text-align: center;
+  color: #1F2937;
+  font-size: 15px;
+}
+.container .phrase {
+  width: 100%;
+  background: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 0px;
+}
+.container .phrase h3 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.container .phrase p {
+  padding-left: 40%;
+  font-size: 18px;
+  color: #1F2937;
+  font-weight: 600;
+}
+.container .call-action {
+  padding: 5% 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .call-action .content-text {
+  width: 70%;
+  background: #3882F6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 8%;
+}
+.container .call-action .content-text .text h4 {
+  color: #F9FAF8;
+}
+.container .call-action .content-text .text p {
+  color: #E5E7EB;
+  font-weight: 300;
+  font-size: 14px;
+}
+.container .call-action .content-text button {
+  background: transparent;
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+  border-radius: 7px;
+  padding: 5px 20px;
+  transition: all 0.3s ease-in;
+}
+.container .call-action .content-text button:hover {
+  background: #F9FAF8;
+  color: #3882F6;
+  cursor: pointer;
+}
+.container footer {
+  width: 100%;
+  padding: 2% 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1F2937;
+  color: #F9FAF8;
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
